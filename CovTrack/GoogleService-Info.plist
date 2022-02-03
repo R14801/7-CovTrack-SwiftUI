@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>673358763437-hom06ttn3hjn0rpqu23g52mbldv8959c.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.673358763437-hom06ttn3hjn0rpqu23g52mbldv8959c</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBdi_vSGxpvMdf9-SP6K6zhuCSfpd0N2bs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>673358763437</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.rajat.covtrack</string>
+	<key>PROJECT_ID</key>
+	<string>covtrack-7e0ed</string>
+	<key>STORAGE_BUCKET</key>
+	<string>covtrack-7e0ed.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:673358763437:ios:b15224a772afb529113d24</string>
+</dict>
+</plist>

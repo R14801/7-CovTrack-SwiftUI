@@ -7,15 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04BE3B5F27170EB700B40B6B /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE3B5E27170EB700B40B6B /* LandingViewController.swift */; };
+		04BE3B6127170ED700B40B6B /* LogInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE3B6027170ED700B40B6B /* LogInController.swift */; };
+		04BE3B6327170EEC00B40B6B /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE3B6227170EEC00B40B6B /* SignUpController.swift */; };
+		04BE3B652717110100B40B6B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04BE3B642717110100B40B6B /* GoogleService-Info.plist */; };
+		04BE3B6727171D0300B40B6B /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BE3B6627171D0300B40B6B /* DashboardController.swift */; };
+		04CC507E27172C3F00CED847 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CC507D27172C3F00CED847 /* Constants.swift */; };
+		04DA56462719D82C006DE679 /* SplashScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA56452719D82C006DE679 /* SplashScreenController.swift */; };
+		04DA56482719F415006DE679 /* CovidModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA56472719F415006DE679 /* CovidModel.swift */; };
+		04DA564A2719F41E006DE679 /* CovidData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA56492719F41E006DE679 /* CovidData.swift */; };
+		04DA564C2719F51B006DE679 /* CovidController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA564B2719F51B006DE679 /* CovidController.swift */; };
 		04E9283A2711BF6A00EE4A46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E928392711BF6A00EE4A46 /* AppDelegate.swift */; };
 		04E9283C2711BF6A00EE4A46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9283B2711BF6A00EE4A46 /* SceneDelegate.swift */; };
 		04E9283E2711BF6A00EE4A46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9283D2711BF6A00EE4A46 /* ViewController.swift */; };
 		04E928412711BF6A00EE4A46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E9283F2711BF6A00EE4A46 /* Main.storyboard */; };
 		04E928432711BF6C00EE4A46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E928422711BF6C00EE4A46 /* Assets.xcassets */; };
 		04E928462711BF6C00EE4A46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E928442711BF6C00EE4A46 /* LaunchScreen.storyboard */; };
+		04F693792723BAEE009BBBB9 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F693782723BAEE009BBBB9 /* SettingsViewController.swift */; };
+		04FF40A527A83847007027DF /* coreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04FF40A327A83847007027DF /* coreData.xcdatamodeld */; };
+		04FF40A927A83B2A007027DF /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04FF40A827A83B2A007027DF /* Extensions.swift */; };
+		61B17FCD0D11FF21BB03C516 /* Pods_CovTrack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B73D19AE6629B8FF7682F4 /* Pods_CovTrack.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04BE3B5E27170EB700B40B6B /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		04BE3B6027170ED700B40B6B /* LogInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInController.swift; sourceTree = "<group>"; };
+		04BE3B6227170EEC00B40B6B /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
+		04BE3B642717110100B40B6B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04BE3B6627171D0300B40B6B /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
+		04CC507D27172C3F00CED847 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		04DA56452719D82C006DE679 /* SplashScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenController.swift; sourceTree = "<group>"; };
+		04DA56472719F415006DE679 /* CovidModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidModel.swift; sourceTree = "<group>"; };
+		04DA56492719F41E006DE679 /* CovidData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidData.swift; sourceTree = "<group>"; };
+		04DA564B2719F51B006DE679 /* CovidController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidController.swift; sourceTree = "<group>"; };
 		04E928362711BF6A00EE4A46 /* CovTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CovTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E928392711BF6A00EE4A46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04E9283B2711BF6A00EE4A46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +48,12 @@
 		04E928422711BF6C00EE4A46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E928452711BF6C00EE4A46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04E928472711BF6C00EE4A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F693782723BAEE009BBBB9 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		04FF40A427A83847007027DF /* coreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = coreData.xcdatamodel; sourceTree = "<group>"; };
+		04FF40A827A83B2A007027DF /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6691C885FEB8BCA1A2150B84 /* Pods-CovTrack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovTrack.release.xcconfig"; path = "Target Support Files/Pods-CovTrack/Pods-CovTrack.release.xcconfig"; sourceTree = "<group>"; };
+		8F761E3D2E50E66510D4CC7F /* Pods-CovTrack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CovTrack.debug.xcconfig"; path = "Target Support Files/Pods-CovTrack/Pods-CovTrack.debug.xcconfig"; sourceTree = "<group>"; };
+		F9B73D19AE6629B8FF7682F4 /* Pods_CovTrack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CovTrack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61B17FCD0D11FF21BB03C516 /* Pods_CovTrack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +73,8 @@
 			children = (
 				04E928382711BF6A00EE4A46 /* CovTrack */,
 				04E928372711BF6A00EE4A46 /* Products */,
+				3B8581FD0B6503EFB4C45212 /* Pods */,
+				D459CF8BA25488723DB546BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +91,67 @@
 			children = (
 				04E928392711BF6A00EE4A46 /* AppDelegate.swift */,
 				04E9283B2711BF6A00EE4A46 /* SceneDelegate.swift */,
-				04E9283D2711BF6A00EE4A46 /* ViewController.swift */,
-				04E9283F2711BF6A00EE4A46 /* Main.storyboard */,
+				04FF40A327A83847007027DF /* coreData.xcdatamodeld */,
+				04E9284E2711BFA400EE4A46 /* Model */,
+				04E9284D2711BF9C00EE4A46 /* View */,
+				04E9284F2711BFAD00EE4A46 /* ViewController */,
 				04E928422711BF6C00EE4A46 /* Assets.xcassets */,
-				04E928442711BF6C00EE4A46 /* LaunchScreen.storyboard */,
+				04BE3B642717110100B40B6B /* GoogleService-Info.plist */,
 				04E928472711BF6C00EE4A46 /* Info.plist */,
+				04CC507D27172C3F00CED847 /* Constants.swift */,
+				04FF40A827A83B2A007027DF /* Extensions.swift */,
 			);
 			path = CovTrack;
+			sourceTree = "<group>";
+		};
+		04E9284D2711BF9C00EE4A46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04E928442711BF6C00EE4A46 /* LaunchScreen.storyboard */,
+				04E9283F2711BF6A00EE4A46 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04E9284E2711BFA400EE4A46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04DA56472719F415006DE679 /* CovidModel.swift */,
+				04DA56492719F41E006DE679 /* CovidData.swift */,
+				04DA564B2719F51B006DE679 /* CovidController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04E9284F2711BFAD00EE4A46 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04E9283D2711BF6A00EE4A46 /* ViewController.swift */,
+				04BE3B5E27170EB700B40B6B /* LandingViewController.swift */,
+				04BE3B6027170ED700B40B6B /* LogInController.swift */,
+				04BE3B6227170EEC00B40B6B /* SignUpController.swift */,
+				04BE3B6627171D0300B40B6B /* DashboardController.swift */,
+				04DA56452719D82C006DE679 /* SplashScreenController.swift */,
+				04F693782723BAEE009BBBB9 /* SettingsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		3B8581FD0B6503EFB4C45212 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F761E3D2E50E66510D4CC7F /* Pods-CovTrack.debug.xcconfig */,
+				6691C885FEB8BCA1A2150B84 /* Pods-CovTrack.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D459CF8BA25488723DB546BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9B73D19AE6629B8FF7682F4 /* Pods_CovTrack.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04E9284A2711BF6C00EE4A46 /* Build configuration list for PBXNativeTarget "CovTrack" */;
 			buildPhases = (
+				8ADE65BB1CDC80AB3CCBED43 /* [CP] Check Pods Manifest.lock */,
 				04E928322711BF6A00EE4A46 /* Sources */,
 				04E928332711BF6A00EE4A46 /* Frameworks */,
 				04E928342711BF6A00EE4A46 /* Resources */,
+				43B486A3829890B089824816 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04E928462711BF6C00EE4A46 /* LaunchScreen.storyboard in Resources */,
+				04BE3B652717110100B40B6B /* GoogleService-Info.plist in Resources */,
 				04E928432711BF6C00EE4A46 /* Assets.xcassets in Resources */,
 				04E928412711BF6A00EE4A46 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +223,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		43B486A3829890B089824816 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CovTrack/Pods-CovTrack-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CovTrack/Pods-CovTrack-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CovTrack/Pods-CovTrack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ADE65BB1CDC80AB3CCBED43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CovTrack-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04E928322711BF6A00EE4A46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				04E9283E2711BF6A00EE4A46 /* ViewController.swift in Sources */,
+				04DA564C2719F51B006DE679 /* CovidController.swift in Sources */,
 				04E9283A2711BF6A00EE4A46 /* AppDelegate.swift in Sources */,
+				04BE3B6127170ED700B40B6B /* LogInController.swift in Sources */,
+				04DA56482719F415006DE679 /* CovidModel.swift in Sources */,
+				04DA56462719D82C006DE679 /* SplashScreenController.swift in Sources */,
+				04DA564A2719F41E006DE679 /* CovidData.swift in Sources */,
+				04BE3B5F27170EB700B40B6B /* LandingViewController.swift in Sources */,
 				04E9283C2711BF6A00EE4A46 /* SceneDelegate.swift in Sources */,
+				04BE3B6727171D0300B40B6B /* DashboardController.swift in Sources */,
+				04FF40A927A83B2A007027DF /* Extensions.swift in Sources */,
+				04F693792723BAEE009BBBB9 /* SettingsViewController.swift in Sources */,
+				04BE3B6327170EEC00B40B6B /* SignUpController.swift in Sources */,
+				04FF40A527A83847007027DF /* coreData.xcdatamodeld in Sources */,
+				04CC507E27172C3F00CED847 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,16 +428,19 @@
 		};
 		04E9284B2711BF6C00EE4A46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F761E3D2E50E66510D4CC7F /* Pods-CovTrack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3S7LBTRGU5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CovTrack/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -301,7 +448,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rajat.covtrack.CovTrack;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajat.covtrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -311,16 +458,19 @@
 		};
 		04E9284C2711BF6C00EE4A46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6691C885FEB8BCA1A2150B84 /* Pods-CovTrack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3S7LBTRGU5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CovTrack/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,7 +478,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.rajat.covtrack.CovTrack;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajat.covtrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -358,6 +508,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		04FF40A327A83847007027DF /* coreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				04FF40A427A83847007027DF /* coreData.xcdatamodel */,
+			);
+			currentVersion = 04FF40A427A83847007027DF /* coreData.xcdatamodel */;
+			path = coreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 04E9282E2711BF6A00EE4A46 /* Project object */;
 }
