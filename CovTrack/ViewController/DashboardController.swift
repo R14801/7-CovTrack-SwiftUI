@@ -15,11 +15,11 @@ class DashboardController: UIViewController, CovidControllerDelegate {
     let fields = ["Cases", "Deaths", "Recovered"]
     var fieldsData = ["Cases": 0, "Deaths": 0]
     var country = "India"
-    @IBOutlet weak var MapView: MKMapView!
     @IBOutlet weak var popUpButton: UIButton!
     @IBOutlet weak var casesLabel: UILabel!
     @IBOutlet weak var deathsLabel: UILabel!
     @IBOutlet weak var recoveredLabel: UILabel!
+    @IBOutlet weak var countryImage: UIImageView!
     
     var covidController = CovidController()
     
@@ -28,12 +28,14 @@ class DashboardController: UIViewController, CovidControllerDelegate {
         super.viewDidLoad()
         //MARK:- Data Setup
         covidController.delegate=self
-        covidController.fetchData()
+        covidController.fetchData(country: "India")
+        self.countryChaner(title: "India")
 
         //MARK:- UI Setup
         navigationItem.title = ""
         navigationItem.hidesBackButton=true
-        MapView.layer.cornerRadius = 15
+        countryImage.layer.cornerRadius = 25
+        
         
         popUpButton.menu = UIMenu(children: [
             UIAction(title: "India", handler: {(action: UIAction) in self.countryChaner(title: "India")}),
@@ -69,6 +71,9 @@ class DashboardController: UIViewController, CovidControllerDelegate {
 //        covidController.fetchData(country: country)
         DispatchQueue.main.async {
             self.covidController.fetchData(country: title)
+            if let image = UIImage(named: title) {
+                self.countryImage.image = image
+            }
         }
     }
     

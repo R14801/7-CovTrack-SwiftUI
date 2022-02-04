@@ -29,7 +29,7 @@ class SettingsViewController : UIViewController{
     }
     
     @IBAction func deleteAllPressed(_ sender: Any) {
-
+        
         if let appDelegate = UIApplication.shared.delegate as? AppDelegate {
             let context = appDelegate.persistentContainer.viewContext
             
@@ -74,8 +74,8 @@ extension SettingsViewController: UITableViewDataSource {
         let cell = tableView.dequeueReusableCell(withIdentifier: K.cellIdentifier, for: indexPath)
         let item = K.aboutAppHeading[indexPath.item]
         cell.textLabel?.text = "\(item): \(K.aboutApp[item]!)"
-                return cell
-            }
+        return cell
+    }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return K.aboutApp.count
