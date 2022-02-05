@@ -364,10 +364,29 @@
                                 <rect key="frame" x="20" y="376.5" width="374" height="475.5"/>
                                 <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                             </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XDj-Ag-SRG">
+                                <rect key="frame" x="157" y="589.5" width="100" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9e8-3g-PuF">
+                                        <rect key="frame" x="29.5" y="14.5" width="41.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="9e8-3g-PuF" firstAttribute="centerX" secondItem="XDj-Ag-SRG" secondAttribute="centerX" id="B9F-YJ-vHp"/>
+                                    <constraint firstItem="9e8-3g-PuF" firstAttribute="centerY" secondItem="XDj-Ag-SRG" secondAttribute="centerY" id="Xqv-PF-5w0"/>
+                                    <constraint firstAttribute="height" constant="50" id="hnN-d8-EvY"/>
+                                    <constraint firstAttribute="width" constant="100" id="pi5-iC-dHA"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="VLa-8J-dgT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="XDj-Ag-SRG" firstAttribute="centerX" secondItem="n5Y-q7-918" secondAttribute="centerX" id="2gm-21-yAS"/>
                             <constraint firstItem="Ksm-NA-WmR" firstAttribute="leading" secondItem="VLa-8J-dgT" secondAttribute="leading" id="7DC-n8-2mw"/>
                             <constraint firstItem="aWf-Lb-ih8" firstAttribute="top" secondItem="VLa-8J-dgT" secondAttribute="top" id="8ju-rp-ejM"/>
                             <constraint firstItem="5YF-P8-0ih" firstAttribute="top" secondItem="Ksm-NA-WmR" secondAttribute="bottom" constant="10" id="9c9-aR-BDU"/>
@@ -384,6 +403,7 @@
                             <constraint firstItem="Ksm-NA-WmR" firstAttribute="top" secondItem="aI0-OZ-K27" secondAttribute="bottom" constant="15" id="htj-lf-3tP"/>
                             <constraint firstItem="VLa-8J-dgT" firstAttribute="trailing" secondItem="otS-of-Ng8" secondAttribute="trailing" constant="20" id="ihC-nl-d0v"/>
                             <constraint firstItem="otS-of-Ng8" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="aWf-Lb-ih8" secondAttribute="trailing" constant="8" symbolic="YES" id="jgX-t8-PQ5"/>
+                            <constraint firstItem="XDj-Ag-SRG" firstAttribute="centerY" secondItem="5YF-P8-0ih" secondAttribute="centerY" id="nZR-DE-wUm"/>
                             <constraint firstItem="otS-of-Ng8" firstAttribute="top" secondItem="VLa-8J-dgT" secondAttribute="top" constant="15" id="oJl-dj-VVA"/>
                             <constraint firstItem="aI0-OZ-K27" firstAttribute="top" secondItem="aWf-Lb-ih8" secondAttribute="bottom" constant="20" id="upF-BJ-OKr"/>
                         </constraints>
@@ -394,6 +414,8 @@
                         <outlet property="casesLabel" destination="Anj-hO-ub8" id="vTw-Nt-ZWy"/>
                         <outlet property="countryImage" destination="5YF-P8-0ih" id="za6-hB-I4H"/>
                         <outlet property="deathsLabel" destination="FBI-pX-If5" id="hNV-f0-Otb"/>
+                        <outlet property="mapNumbers" destination="9e8-3g-PuF" id="btg-5G-Mab"/>
+                        <outlet property="numberBackground" destination="XDj-Ag-SRG" id="jqX-jH-xgo"/>
                         <outlet property="popUpButton" destination="BuB-nq-Mf3" id="NDS-xl-dfw"/>
                         <outlet property="recoveredLabel" destination="U7T-2S-vrv" id="QBT-q0-Qzl"/>
                         <segue destination="B8o-qK-jqZ" kind="show" identifier="DashboardToSettings" id="LFz-2G-8mf"/>

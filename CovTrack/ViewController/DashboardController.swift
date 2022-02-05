@@ -20,6 +20,8 @@ class DashboardController: UIViewController, CovidControllerDelegate {
     @IBOutlet weak var deathsLabel: UILabel!
     @IBOutlet weak var recoveredLabel: UILabel!
     @IBOutlet weak var countryImage: UIImageView!
+    @IBOutlet weak var numberBackground: UIView!
+    @IBOutlet weak var mapNumbers: UILabel!
     
     var covidController = CovidController()
     
@@ -35,6 +37,13 @@ class DashboardController: UIViewController, CovidControllerDelegate {
         navigationItem.title = ""
         navigationItem.hidesBackButton=true
         countryImage.layer.cornerRadius = 25
+        numberBackground.layer.cornerRadius = 15
+        numberBackground.alpha = 0.75
+//        let shapeLAyer = CAShapeLayer()
+//        let circularPath = UIBezierPath(arcCenter: countryImage.center, radius: 50, startAngle: 0, endAngle: 2*CGFloat.pi, clockwise: true)
+//        shapeLAyer.path = circularPath.cgPath
+//        view.layer.addSublayer(shapeLAyer)
+        
         
         
         popUpButton.menu = UIMenu(children: [
@@ -55,7 +64,7 @@ class DashboardController: UIViewController, CovidControllerDelegate {
             self.casesLabel.text = "Cases: \(covid.todayCases)"
             self.deathsLabel.text = "Deaths: \(covid.todayDeaths)"
             self.recoveredLabel.text = "Recovered: \(covid.todayRecovered)"
-            
+            self.mapNumbers.text = "\(covid.todayCases)"
         }
     }
     
